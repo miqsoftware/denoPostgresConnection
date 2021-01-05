@@ -6,8 +6,9 @@ const app = new Application();
 const typeDefs = gql`
     type Mercadoria{
         id: ID
+        name: String
     }
-    
+
     type Query{
         mercadorias: [Mercadoria]
     }
